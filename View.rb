@@ -43,7 +43,7 @@ FOO
 		puts "~~~~~~~~~~~~~~~~~~~~~\n--#{theater.name}--\nLocation: #{theater.address1}\nWebsite: #{theater.url}"
  end
 end
-  def self.pretty_print2(theaters)
+  def self.pretty_print2(galleries)
   puts "\n\n\nOr why don't you go get yo'self some ART"
  galleries.each do |gallery|
  	puts "~~~~~~~~~~~~~~~~~~~~~\nGallery name: #{gallery.name} \nLocation: #{gallery.address1}\nWebsite: #{gallery.url}"

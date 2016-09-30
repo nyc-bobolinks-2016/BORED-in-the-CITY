@@ -4,7 +4,7 @@ require_relative 'theater'
 require_relative 'gallery'
 require_relative 'view'
 
-require 'pry'
+
 
 THEATER_BASE_URL =  "https://data.cityofnewyork.us/resource/2hzz-95k8.json"
 GALLERY_BASE_URL = "https://data.cityofnewyork.us/resource/43hw-uvdj.json"

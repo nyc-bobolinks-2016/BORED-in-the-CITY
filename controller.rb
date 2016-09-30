@@ -11,11 +11,7 @@ GALLERY_BASE_URL = "https://data.cityofnewyork.us/resource/43hw-uvdj.json"
 QUERY_STRING = '?zip=' + View.user_input
 
 class Controller
-<<<<<<< HEAD
   attr_accessor :theaters, :galleries
-=======
-  attr_accessor :theaters
->>>>>>> 41c736b8f97909910524adeefb569a55ba044839
 
   def initialize
       @theaters = []
@@ -46,11 +42,10 @@ def find_galleries
   gallery_hash_response.each do | gallery |
       @galleries << Gallery.new(gallery)
   end
-View.pretty_print(galleries)
+View.pretty_print2(galleries)
 end
 
 end
 
 controller = Controller.new
 controller.run
-

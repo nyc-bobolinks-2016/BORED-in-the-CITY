@@ -13,7 +13,7 @@ class View
   def self.pretty_print(theaters)
 
  theaters.each do |theater|
-   puts "Theater name: #{theater.name} "
+   puts "~~~~~~~~~~~~~~~~~~~~~\nTheater name: #{theater.name} \nLocation: #{theater.address1}\nWebsite: #{theater.url}"
  end
   end
 

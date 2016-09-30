@@ -10,7 +10,7 @@ PARK_BASE_URL = "https://data.cityofnewyork.us/resource/y6ja-fw4f.json"
 QUERY_STRING = '?zip=' + View.user_input
 
 class Controller
-  attr_accessor :theaters :parks
+  attr_accessor :theaters
 
   def initialize
       @theaters = []

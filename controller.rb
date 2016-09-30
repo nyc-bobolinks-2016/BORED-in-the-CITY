@@ -11,7 +11,11 @@ GALLERY_BASE_URL = "https://data.cityofnewyork.us/resource/43hw-uvdj.json"
 QUERY_STRING = '?zip=' + View.user_input
 
 class Controller
+<<<<<<< HEAD
   attr_accessor :theaters, :galleries
+=======
+  attr_accessor :theaters
+>>>>>>> 41c736b8f97909910524adeefb569a55ba044839
 
   def initialize
       @theaters = []

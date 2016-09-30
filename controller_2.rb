@@ -42,10 +42,11 @@ def find_galleries
   gallery_hash_response.each do | gallery |
       @galleries << Gallery.new(gallery)
   end
-View.pretty_print2(galleries)
+View.pretty_print(galleries)
 end
 
 end
 
 controller = Controller.new
 controller.run
+
